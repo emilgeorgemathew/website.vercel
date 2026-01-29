@@ -16,6 +16,12 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Vercel Analytics -->
+    <script>
+        window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 
 <body>
@@ -109,33 +115,27 @@
     <!-- About Section -->
     <section id="about" class="section about">
         <div class="container">
-            <div class="about-content"
-                style="display: grid; grid-template-columns: 0.8fr 1fr; gap: 2rem; align-items: start;">
-                <div class="about-image" style="display: block; margin-left: -200px;">
-                    <img src="IMG_6906 6.jpg" alt="Emil George Mathew"
-                        style="width: 100%; height: auto; border-radius: 8px; object-fit: cover;">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="IMG_6906 6.jpg" alt="Emil George Mathew">
                 </div>
-                <div class="about-text" style="padding-top: 0;">
-                    <h3
-                        style="font-size: 3.5rem; font-weight: 700; margin-bottom: 1rem; color: #fff; line-height: 1.1;">
-                        Meet Emil</h3>
-                    <p
-                        style="text-align: left; font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.8); margin-bottom: 1rem;">
+                <div class="about-text">
+                    <h3>Meet Emil</h3>
+                    <p>
                         Business / Data Analyst with strong experience in <span class="text-accent">analytics</span>,
                         <span class="text-accent">business intelligence</span>, <span class="text-accent">marketing
                             technology</span>,
                         and <span class="text-accent">machine learning</span> across marketing, retail, and
                         operations.
                     </p>
-                    <p
-                        style="text-align: left; font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.8); margin-bottom: 1rem;">
-                        I have a proven experience to translate data into business impact, driving revenue growth,
-                        and decision-making through SQL, Python, Tableau, PowerBI and forecasting.
+                    <p>
+                        I translate complex data into measurable business impact driving revenue growth and
+                        informed decision-making using SQL, Python, Tableau, Power BI, and forecasting models.
                     </p>
-                    <p style="text-align: left; font-size: 1rem; line-height: 1.6; color: rgba(255,255,255,0.8);">
-                        With experience managing performance marketing campaigns at ClearPier Performance Inc and
-                        Yelohi Media, I've improved client KPIs through data‑driven decision making, stakeholder
-                        collaboration and optimization strategies.
+                    <p>
+                        Previously, I led performance marketing analytics at ClearPier Performance Inc where I
+                        improved client KPIs through data-driven optimization, cross-functional collaboration, and
+                        strategic insights.
                     </p>
                     <div class="about-highlights"
                         style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap; justify-content: flex-start;">
@@ -320,20 +320,28 @@
                         </div>
                         <div class="timeline-body">
                             <ul>
-                                <li>Built a multi-model ML pipeline (XGBoost, CatBoost, LSTM, Prophet) to forecast
-                                    demand across <strong>100+ stores</strong> achieving <strong>6.2% MAPE</strong>,
-                                    enhancing forecast accuracy by <strong>18%</strong></li>
-                                <li>Led deployment of an AI-driven analytics automation system using
-                                    <strong>FastAPI</strong> and <strong>Gemini API</strong> with ETL workflows
+                                <li>Built a multi-model machine learning demand forecasting pipeline across
+                                    <strong>100+ stores</strong>, achieving <strong>6.2% MAPE</strong> and
+                                    <strong>0.012 bias</strong>, improving forecast accuracy by <strong>18%</strong> and
+                                    reducing labor misallocation and employee overtime.
                                 </li>
-                                <li>Developed Streamlit UI reducing manual analysis time by <strong>70%</strong> and
-                                    accelerated supply-chain decisions by <strong>40%</strong></li>
-                                <li>Presented to Walmart Head of Data Science - received feedback: <em>"Best agentic AI
-                                        system across all projects"</em></li>
+                                <li>Led the deployment of an AI-driven analytics automation system, leveraging
+                                    <strong>FastAPI</strong> for backend services, <strong>Gemini API</strong> for
+                                    natural-language querying, and ETL workflows to streamline data ingestion and
+                                    processing.
+                                </li>
+                                <li>Delivered self-serve analytics to store managers via a
+                                    <strong>Streamlit UI</strong> and interactive visualizations, reducing manual
+                                    analysis time by
+                                    <strong>70%</strong> and accelerating decision-making by
+                                    <strong>40%</strong>.
+                                </li>
                             </ul>
                         </div>
                         <div class="timeline-tags">
                             <span>XGBoost</span>
+                            <span>CatBoost</span>
+                            <span>Prophet</span>
                             <span>LSTM</span>
                             <span>FastAPI</span>
                             <span>Streamlit</span>
@@ -356,17 +364,30 @@
                         </div>
                         <div class="timeline-body">
                             <ul>
-                                <li>Owned analytics using MMPs, SQL and Excel, improving campaign performance by
-                                    <strong>35%</strong> and generating <strong>$600K+</strong> incremental annual
-                                    revenue across APAC
+                                <li>Owned day-to-day analytics using MMPs, <strong>SQL</strong> and
+                                    <strong>Excel</strong>
+                                    for multiple high-revenue clients to improve campaign performance by
+                                    <strong>35%</strong> and generated <strong>$600K+</strong> incremental annual
+                                    revenue across APAC.
                                 </li>
-                                <li>Optimized 15+ high-value campaigns (<strong>$100k+ monthly</strong>), reducing ad
-                                    fraud by <strong>40%</strong> and saving <strong>~$40,000/month</strong></li>
-                                <li>Led strategic partnerships for <strong>15+ clients</strong>, optimizing KPIs by
-                                    <strong>30%</strong> using PowerBI dashboards
+                                <li>Optimized 15+ high-value marketing User Acquisition / Retargeting campaigns
+                                    (<strong>$100k+ monthly</strong>) using Mobile Measurement Platforms
+                                    (<strong>Appsflyer</strong>, <strong>Singular</strong>) reducing Protect360 ad fraud
+                                    by <strong>40%</strong> through cross-functional collaboration with operations,
+                                    partnerships team and saving approximately <strong>$40,000</strong> per month.</li>
+                                <li>Led strategic partnerships and communication for <strong>15+ clients</strong>,
+                                    gathered requirements and translated business requirements to optimize for Key
+                                    Performance Indicators (KPIs) by <strong>30%</strong> using <strong>PowerBI</strong>
+                                    dashboards.
                                 </li>
-                                <li>Automated weekly reports, lowering manual reporting effort by <strong>40%</strong>
+                                <li>Analyzed data via SQL queries on <strong>Apache Superset</strong> to identify low
+                                    ROI partners, negotiated with potential partners and reinstated terms, driving a
+                                    <strong>20%</strong> conversion rate lift.
                                 </li>
+                                <li>Built ad hoc reports when required and automated weekly reports that lowered manual
+                                    reporting effort by <strong>40%</strong>.</li>
+                                <li>Presented to executive stakeholders (<strong>CEO, CTO, GM</strong>) with data-driven
+                                    insights to support strategic decision-making.</li>
                             </ul>
                         </div>
                         <div class="timeline-tags">
@@ -466,19 +487,23 @@
                     </div>
                     <div class="project-content">
                         <span class="project-label">Featured Project</span>
-                        <h3 class="project-title">AI-Driven Analytics Automation</h3>
+                        <h3 class="project-title">AirBnb High Booking Rate Prediction - Machine Learning Project</h3>
                         <div class="project-description">
                             <p>
-                                Agentic AI system with FastAPI backend and Gemini API for natural language queries.
-                                Streamlit UI provides store managers with actionable insights, reducing manual
-                                analysis time by 70% and accelerating supply-chain decisions by 40%.
+                                Built a multi model ensemble pipeline (XGBoost, CatBoost, Logistic Regression) to
+                                predict high-booking listings using 92K+ records and 70+ engineered features,
+                                achieving AUC 0.92 and 87.3% accuracy.
+                            </p>
+                            <p>
+                                Used the insights to recommend hosts to improve strategies (no hidden fees, better
+                                response time, clear house rules) to get the highest rating and enabling revenue
+                                growth and high-ROI property identification.
                             </p>
                         </div>
                         <ul class="project-tech">
-                            <li>FastAPI</li>
-                            <li>Gemini API</li>
-                            <li>Streamlit</li>
-                            <li>ETL</li>
+                            <li>XGBoost</li>
+                            <li>CatBoost</li>
+                            <li>Logistic Regression</li>
                             <li>Python</li>
                         </ul>
                     </div>
