@@ -144,7 +144,8 @@ document.querySelectorAll('.skill-item, .timeline-item, .project-card, .educatio
 // Counter Animation
 // ========================================
 function animateCounter(element) {
-    const target = parseInt(element.dataset.target);
+    const target = parseFloat(element.dataset.target);
+    const isDecimal = target % 1 !== 0;
     const duration = 2000;
     const increment = target / (duration / 16);
     let current = 0;
@@ -152,10 +153,10 @@ function animateCounter(element) {
     const updateCounter = () => {
         current += increment;
         if (current < target) {
-            element.textContent = Math.floor(current);
+            element.textContent = isDecimal ? current.toFixed(1) : Math.floor(current);
             requestAnimationFrame(updateCounter);
         } else {
-            element.textContent = target;
+            element.textContent = isDecimal ? target.toFixed(1) : target;
         }
     };
 
