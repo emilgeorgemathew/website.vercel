@@ -1061,6 +1061,14 @@ img {
     line-height: 1.6;
 }
 
+.project-description p {
+    margin-bottom: 0.75rem;
+}
+
+.project-description p:last-child {
+    margin-bottom: 0;
+}
+
 .project-tech {
     display: flex;
     flex-wrap: wrap;
